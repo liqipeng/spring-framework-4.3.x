@@ -18,9 +18,9 @@ package org.springframework.cglib.transform.impl;
 import org.springframework.cglib.transform.*;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.Label;
+import org.springframework.asm.Type;
 
 public class FieldProviderTransformer extends ClassEmitterTransformer {
     

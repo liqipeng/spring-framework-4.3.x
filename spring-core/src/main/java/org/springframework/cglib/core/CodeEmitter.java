@@ -16,7 +16,7 @@
 package org.springframework.cglib.core;
 
 import java.util.*;
-import org.objectweb.asm.*;
+import org.springframework.asm.*;
 
 /**
  * @author Juozas Baliuka, Chris Nokleberg

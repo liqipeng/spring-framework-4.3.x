@@ -18,8 +18,8 @@ package org.springframework.cglib.reflect;
 import java.lang.reflect.*;
 import java.security.ProtectionDomain;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Type;
 
 /**
  * @author Chris Nokleberg

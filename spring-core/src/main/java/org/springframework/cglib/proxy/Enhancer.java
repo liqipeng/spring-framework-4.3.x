@@ -24,9 +24,9 @@ import java.security.ProtectionDomain;
 import java.util.*;
 
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.Label;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Type;
+import org.springframework.asm.Label;
 
 /**
  * Generates dynamic subclasses to enable method interception. This

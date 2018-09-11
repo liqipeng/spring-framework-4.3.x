@@ -15,8 +15,8 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Opcodes;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Opcodes;
 
 abstract public class AbstractClassTransformer extends ClassTransformer {
     protected AbstractClassTransformer() {

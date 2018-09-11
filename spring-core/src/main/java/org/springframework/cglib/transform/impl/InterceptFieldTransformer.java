@@ -17,8 +17,8 @@ package org.springframework.cglib.transform.impl;
 
 import org.springframework.cglib.transform.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Label;
+import org.springframework.asm.Type;
 
 /**
  * @author Juozas Baliuka, Chris Nokleberg

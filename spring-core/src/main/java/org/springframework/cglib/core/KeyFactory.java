@@ -17,9 +17,9 @@
 package org.springframework.cglib.core;
 
 import org.springframework.cglib.core.internal.CustomizerRegistry;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Label;
+import org.springframework.asm.Type;
 
 import java.lang.reflect.Method;
 import java.security.ProtectionDomain;

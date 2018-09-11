@@ -16,7 +16,7 @@
 package org.springframework.cglib.transform;
 
 import org.springframework.cglib.core.ClassGenerator;
-import org.objectweb.asm.*;
+import org.springframework.asm.*;
 
 public class TransformingClassLoader extends AbstractClassLoader {
     private ClassTransformerFactory t;

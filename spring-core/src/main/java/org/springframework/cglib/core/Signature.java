@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 /**
  * A representation of a method signature, containing the method name,

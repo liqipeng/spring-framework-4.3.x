@@ -16,7 +16,7 @@
 package org.springframework.cglib.core;
 
 import java.util.*;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 public class TypeUtils {
     private static final Map transforms = new HashMap();

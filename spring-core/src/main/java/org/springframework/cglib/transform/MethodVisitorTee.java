@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.*;
+import org.springframework.asm.*;
 
 public class MethodVisitorTee extends MethodVisitor {
     private final MethodVisitor mv1;

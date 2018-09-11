@@ -15,8 +15,8 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.Type;
 
 abstract public class ClassInfo {
 

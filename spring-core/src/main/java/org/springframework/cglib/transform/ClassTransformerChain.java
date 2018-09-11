@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.*;
+import org.springframework.asm.*;
 
 public class ClassTransformerChain extends AbstractClassTransformer {
     private ClassTransformer[] chain;

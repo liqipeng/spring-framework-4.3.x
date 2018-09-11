@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.Attribute;
+import org.springframework.asm.Attribute;
 
 public interface MethodFilter {
     // TODO: pass class name too?

@@ -17,10 +17,10 @@ package org.springframework.cglib.transform.impl;
 
 import org.springframework.cglib.transform.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.MethodVisitor;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.Type;
 
 public class AccessFieldTransformer extends ClassEmitterTransformer {
     private Callback callback;

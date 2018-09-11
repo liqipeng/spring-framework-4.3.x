@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.*;
+import org.springframework.asm.*;
 
 public class ClassVisitorTee extends ClassVisitor {
     private ClassVisitor cv1, cv2;

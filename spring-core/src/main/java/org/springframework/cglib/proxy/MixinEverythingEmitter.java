@@ -21,7 +21,7 @@ import java.util.*;
 import org.springframework.cglib.core.CollectionUtils;
 import org.springframework.cglib.core.ReflectUtils;
 import org.springframework.cglib.core.RejectModifierPredicate;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.ClassVisitor;
 
 /**
  * @author Chris Nokleberg

@@ -25,7 +25,7 @@ import org.springframework.cglib.core.*;
 import org.apache.tools.ant.*;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.ProjectComponent;
-import org.objectweb.asm.*;
+import org.springframework.asm.*;
 
 abstract public class AbstractTransformTask extends AbstractProcessTask {
     private static final int ZIP_MAGIC = 0x504B0304;

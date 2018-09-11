@@ -20,8 +20,8 @@ import java.math.BigInteger;
 import java.util.*;
 
 import org.springframework.cglib.core.internal.CustomizerRegistry;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Label;
+import org.springframework.asm.Type;
 
 public class EmitUtils {
     private static final Signature CSTRUCT_NULL =

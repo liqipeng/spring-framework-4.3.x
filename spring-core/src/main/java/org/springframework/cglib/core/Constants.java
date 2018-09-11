@@ -15,13 +15,13 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 /**
  * @author Juozas Baliuka <a href="mailto:baliuka@mwm.lt">baliuka@mwm.lt</a>
  * @version $Id: Constants.java,v 1.21 2006/03/05 02:43:19 herbyderby Exp $
  */
-public interface Constants extends org.objectweb.asm.Opcodes {
+public interface Constants extends org.springframework.asm.Opcodes {
     public static final Class[] EMPTY_CLASS_ARRAY = {};
     public static final Type[] TYPES_EMPTY = {};
 

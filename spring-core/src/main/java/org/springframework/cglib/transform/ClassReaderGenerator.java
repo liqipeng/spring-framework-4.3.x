@@ -16,9 +16,9 @@
 package org.springframework.cglib.transform;
 
 import org.springframework.cglib.core.ClassGenerator;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.ClassReader;
+import org.springframework.asm.ClassVisitor;
 
 public class ClassReaderGenerator implements ClassGenerator {
     private final ClassReader r;

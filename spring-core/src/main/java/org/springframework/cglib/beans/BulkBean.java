@@ -18,7 +18,7 @@ package org.springframework.cglib.beans;
 import java.security.ProtectionDomain;
 
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.ClassVisitor;
 
 /**
  * @author Juozas Baliuka

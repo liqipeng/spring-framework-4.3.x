@@ -16,7 +16,7 @@
 package org.springframework.cglib.core;
 
 import java.lang.reflect.*;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 public class VisibilityPredicate implements Predicate {
     private boolean protectedOk;

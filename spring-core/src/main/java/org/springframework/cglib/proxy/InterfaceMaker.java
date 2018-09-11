@@ -18,8 +18,8 @@ package org.springframework.cglib.proxy;
 import java.lang.reflect.*;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Type;
 
 /**
  * Generates new interfaces at runtime.

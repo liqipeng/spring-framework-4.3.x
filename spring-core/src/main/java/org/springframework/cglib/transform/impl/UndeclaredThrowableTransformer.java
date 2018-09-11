@@ -18,9 +18,9 @@ package org.springframework.cglib.transform.impl;
 import java.lang.reflect.Constructor;
 import org.springframework.cglib.core.*;
 import org.springframework.cglib.transform.*;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.Type;
+import org.springframework.asm.ClassVisitor;
 
 public class UndeclaredThrowableTransformer extends ClassEmitterTransformer {
     private Type wrapper;

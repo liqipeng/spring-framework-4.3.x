@@ -18,7 +18,7 @@ package org.springframework.cglib.transform.impl;
 import org.springframework.cglib.transform.*;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 public class AddPropertyTransformer extends ClassEmitterTransformer {
     private final String[] names;

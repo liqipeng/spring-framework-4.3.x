@@ -17,7 +17,7 @@ package org.springframework.cglib.proxy;
 
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 class DispatcherGenerator implements CallbackGenerator {
     public static final DispatcherGenerator INSTANCE =

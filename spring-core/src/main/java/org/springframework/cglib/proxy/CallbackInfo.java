@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.proxy;
 
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 class CallbackInfo
 {

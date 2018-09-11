@@ -22,8 +22,8 @@ import java.security.PrivilegedAction;
 import java.security.PrivilegedExceptionAction;
 import java.security.ProtectionDomain;
 import java.util.*;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.Type;
 
 /**
  * @version $Id: ReflectUtils.java,v 1.30 2009/01/11 19:47:49 herbyderby Exp $

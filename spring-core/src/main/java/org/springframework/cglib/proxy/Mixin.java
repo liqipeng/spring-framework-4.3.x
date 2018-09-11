@@ -18,7 +18,7 @@ package org.springframework.cglib.proxy;
 import java.security.ProtectionDomain;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.ClassVisitor;
 
 
 

@@ -17,11 +17,11 @@ package org.springframework.cglib.core;
 
 import org.springframework.cglib.transform.ClassTransformer;
 
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.FieldVisitor;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.FieldVisitor;
+import org.springframework.asm.MethodVisitor;
+import org.springframework.asm.Opcodes;
+import org.springframework.asm.Type;
 
 import java.util.HashMap;
 import java.util.Map;

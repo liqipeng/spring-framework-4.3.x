@@ -16,7 +16,7 @@
 package org.springframework.cglib.transform;
 
 import org.springframework.cglib.core.ClassGenerator;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.ClassVisitor;
 
 public class TransformingClassGenerator implements ClassGenerator {
     private ClassGenerator gen;

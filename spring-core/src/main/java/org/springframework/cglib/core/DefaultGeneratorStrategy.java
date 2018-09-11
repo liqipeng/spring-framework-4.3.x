@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.ClassWriter;
+import org.springframework.asm.ClassWriter;
 
 public class DefaultGeneratorStrategy implements GeneratorStrategy {
     public static final DefaultGeneratorStrategy INSTANCE = new DefaultGeneratorStrategy();

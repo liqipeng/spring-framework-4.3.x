@@ -19,8 +19,8 @@ import org.springframework.cglib.transform.*;
 import java.lang.reflect.*;
 
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.Type;
 
 /**
  * @author Juozas Baliuka

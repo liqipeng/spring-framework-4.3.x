@@ -15,10 +15,10 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Opcodes;
+import org.springframework.asm.ClassWriter;
+import org.springframework.asm.ClassReader;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Opcodes;
 
 import java.io.*;
 import java.lang.reflect.Constructor;
@@ -38,7 +38,7 @@ public class DebuggingClassWriter extends ClassVisitor {
         if (debugLocation != null) {
             System.err.println("CGLIB debugging enabled, writing to '" + debugLocation + "'");
             try {
-              Class clazz = Class.forName("org.objectweb.asm.util.TraceClassVisitor");
+              Class clazz = Class.forName("org.springframework.asm.util.TraceClassVisitor");
               traceCtor = clazz.getConstructor(new Class[]{ClassVisitor.class, PrintWriter.class});
             } catch (Throwable ignore) {
             }

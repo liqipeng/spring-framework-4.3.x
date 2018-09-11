@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Label;
+import org.springframework.asm.Label;
 
 public interface ObjectSwitchCallback {
     void processCase(Object key, Label end) throws Exception;

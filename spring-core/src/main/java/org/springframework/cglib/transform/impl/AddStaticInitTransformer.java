@@ -18,7 +18,7 @@ package org.springframework.cglib.transform.impl;
 import java.lang.reflect.Method;
 import org.springframework.cglib.core.*;
 import org.springframework.cglib.transform.*;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 /**
  * @author Juozas Baliuka, Chris Nokleberg

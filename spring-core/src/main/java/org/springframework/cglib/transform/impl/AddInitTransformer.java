@@ -24,8 +24,8 @@ import org.springframework.cglib.core.ReflectUtils;
 import org.springframework.cglib.core.Signature;
 import org.springframework.cglib.transform.ClassEmitterTransformer;
 
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.Type;
 
 /**
  * @author	Mark Hobson

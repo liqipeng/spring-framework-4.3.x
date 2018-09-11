@@ -16,8 +16,8 @@
 package org.springframework.cglib.util;
 
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Type;
 
 class ParallelSorterEmitter extends ClassEmitter {
     private static final Type PARALLEL_SORTER =

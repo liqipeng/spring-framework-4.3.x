@@ -17,7 +17,7 @@ package org.springframework.cglib.core;
 
 import org.springframework.cglib.core.internal.Function;
 import org.springframework.cglib.core.internal.LoadingCache;
-import org.objectweb.asm.ClassReader;
+import org.springframework.asm.ClassReader;
 
 import java.lang.ref.WeakReference;
 import java.security.ProtectionDomain;

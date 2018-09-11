@@ -18,9 +18,9 @@ package org.springframework.cglib.beans;
 import java.beans.*;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Label;
+import org.springframework.asm.Type;
 
 class BeanMapEmitter extends ClassEmitter {
     private static final Type BEAN_MAP =

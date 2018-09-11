@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.transform.impl;
 
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 public interface InterceptFieldFilter {
     boolean acceptRead(Type owner, String name);

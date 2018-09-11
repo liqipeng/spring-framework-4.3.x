@@ -19,9 +19,9 @@ import java.lang.reflect.*;
 import java.security.ProtectionDomain;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.MethodVisitor;
+import org.springframework.asm.Type;
 
 abstract public class MulticastDelegate implements Cloneable {
     protected Object[] targets = {};

@@ -15,8 +15,8 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Opcodes;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Opcodes;
 
 public class ClassTransformerTee extends ClassTransformer {
     private ClassVisitor branch;

@@ -17,9 +17,9 @@ package org.springframework.cglib.util;
 
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Label;
+import org.springframework.asm.Type;
 
 /**
  * This class implements a simple String->int mapping for a fixed set of keys.

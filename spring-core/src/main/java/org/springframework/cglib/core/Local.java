@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 public class Local
 {

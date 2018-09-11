@@ -15,11 +15,11 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.AnnotationVisitor;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.FieldVisitor;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.TypePath;
+import org.springframework.asm.AnnotationVisitor;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.FieldVisitor;
+import org.springframework.asm.Opcodes;
+import org.springframework.asm.TypePath;
 
 public class FieldVisitorTee extends FieldVisitor {
     private FieldVisitor fv1, fv2;

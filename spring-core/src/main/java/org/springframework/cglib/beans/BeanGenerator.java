@@ -19,8 +19,8 @@ import java.beans.PropertyDescriptor;
 import java.security.ProtectionDomain;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Type;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Type;
 
 /**
  * @author Juozas Baliuka, Chris Nokleberg

@@ -18,7 +18,7 @@ package org.springframework.cglib.beans;
 import java.security.ProtectionDomain;
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.ClassVisitor;
 
 /**
  * A <code>Map</code>-based view of a JavaBean.  The default set of keys is the

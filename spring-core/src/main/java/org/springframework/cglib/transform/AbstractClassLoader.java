@@ -18,9 +18,9 @@ package org.springframework.cglib.transform;
 import org.springframework.cglib.core.CodeGenerationException;
 import org.springframework.cglib.core.ClassGenerator;
 import org.springframework.cglib.core.DebuggingClassWriter;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.Attribute;
+import org.springframework.asm.ClassReader;
+import org.springframework.asm.ClassWriter;
+import org.springframework.asm.Attribute;
 
 import java.io.IOException;
 

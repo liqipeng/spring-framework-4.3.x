@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.*;
+import org.springframework.asm.*;
 
 abstract public class AbstractClassFilterTransformer extends AbstractClassTransformer {
     private ClassTransformer pass;

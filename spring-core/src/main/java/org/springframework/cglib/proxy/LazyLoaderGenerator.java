@@ -17,8 +17,8 @@ package org.springframework.cglib.proxy;
 
 import java.util.*;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Label;
+import org.springframework.asm.Type;
 
 class LazyLoaderGenerator implements CallbackGenerator {
     public static final LazyLoaderGenerator INSTANCE = new LazyLoaderGenerator();

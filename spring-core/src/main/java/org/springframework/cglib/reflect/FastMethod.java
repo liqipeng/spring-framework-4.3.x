@@ -20,7 +20,7 @@ import java.lang.reflect.Method;
 
 import org.springframework.cglib.core.Signature;
 
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 public class FastMethod extends FastMember
 {

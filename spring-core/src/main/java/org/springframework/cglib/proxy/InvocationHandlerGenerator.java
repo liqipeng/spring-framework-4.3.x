@@ -17,7 +17,7 @@ package org.springframework.cglib.proxy;
 
 import org.springframework.cglib.core.*;
 import java.util.*;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 class InvocationHandlerGenerator
 implements CallbackGenerator

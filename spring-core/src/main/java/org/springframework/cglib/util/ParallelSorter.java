@@ -17,7 +17,7 @@ package org.springframework.cglib.util;
 
 import java.util.Comparator;
 import org.springframework.cglib.core.*;
-import org.objectweb.asm.ClassVisitor;
+import org.springframework.asm.ClassVisitor;
 
 /**
  * For the efficient sorting of multiple arrays in parallel.

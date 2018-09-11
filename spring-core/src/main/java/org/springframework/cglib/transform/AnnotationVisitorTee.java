@@ -15,8 +15,8 @@
  */
 package org.springframework.cglib.transform;
 
-import org.objectweb.asm.AnnotationVisitor;
-import org.objectweb.asm.Opcodes;
+import org.springframework.asm.AnnotationVisitor;
+import org.springframework.asm.Opcodes;
 
 public class AnnotationVisitorTee extends AnnotationVisitor {
     private AnnotationVisitor av1, av2;

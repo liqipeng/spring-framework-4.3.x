@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Label;
+import org.springframework.asm.Label;
 
 public class Block
 {

@@ -15,9 +15,9 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.Opcodes;
+import org.springframework.asm.ClassReader;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.Opcodes;
 
 import java.util.*;
 

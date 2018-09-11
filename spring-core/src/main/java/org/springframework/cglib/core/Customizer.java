@@ -15,7 +15,7 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Type;
+import org.springframework.asm.Type;
 
 /**
  * Customizes key types for {@link KeyFactory} when building equals, hashCode, and toString.

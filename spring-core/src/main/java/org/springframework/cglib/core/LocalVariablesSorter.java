@@ -29,10 +29,10 @@
  */
 package org.springframework.cglib.core;
 
-import org.objectweb.asm.Label;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.Type;
+import org.springframework.asm.Label;
+import org.springframework.asm.MethodVisitor;
+import org.springframework.asm.Opcodes;
+import org.springframework.asm.Type;
 
 /**
  * A {@link MethodVisitor} that renumbers local variables in their order of

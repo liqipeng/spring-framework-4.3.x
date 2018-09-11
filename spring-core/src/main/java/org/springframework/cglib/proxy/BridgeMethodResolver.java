@@ -24,14 +24,14 @@ import java.util.Set;
 
 import org.springframework.cglib.core.Signature;
 
-import org.objectweb.asm.AnnotationVisitor;
-import org.objectweb.asm.Attribute;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassVisitor;
-import org.objectweb.asm.FieldVisitor;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Opcodes;
+import org.springframework.asm.AnnotationVisitor;
+import org.springframework.asm.Attribute;
+import org.springframework.asm.ClassReader;
+import org.springframework.asm.ClassVisitor;
+import org.springframework.asm.FieldVisitor;
+import org.springframework.asm.Label;
+import org.springframework.asm.MethodVisitor;
+import org.springframework.asm.Opcodes;
 
 /**
  * Uses bytecode reflection to figure out the targets of all bridge methods
