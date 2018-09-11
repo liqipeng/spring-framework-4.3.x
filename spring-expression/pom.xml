@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-expression</artifactId>
+    <description>Spring Expression Language (SpEL)</description>
 
     <dependencies>
         <dependency>

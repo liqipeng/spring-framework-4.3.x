@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-beans</artifactId>
+    <description>Spring Beans</description>
 
     <dependencies>
         <dependency>
