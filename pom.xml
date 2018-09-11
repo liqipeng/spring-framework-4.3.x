@@ -13,6 +13,8 @@
         <module>spring-beans</module>
         <module>spring-beans-groovy</module>
         <module>spring-expression</module>
+        <module>spring-instrument</module>
+        <module>spring-instrument-tomcat</module>
     </modules>
 
     <properties>
