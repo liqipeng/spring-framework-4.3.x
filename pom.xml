@@ -17,6 +17,7 @@
         <module>spring-instrument-tomcat</module>
         <module>spring-aop</module>
         <module>spring-context</module>
+        <module>spring-oxm</module>
     </modules>
 
     <properties>
