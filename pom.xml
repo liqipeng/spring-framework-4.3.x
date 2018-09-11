@@ -10,6 +10,7 @@
     <version>4.3.x</version>
     <modules>
         <module>spring-core</module>
+        <module>spring-beans</module>
     </modules>
 
     <properties>
