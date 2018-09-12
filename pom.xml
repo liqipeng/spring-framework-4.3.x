@@ -22,6 +22,7 @@
         <module>spring-tx</module>
         <module>spring-jdbc</module>
         <module>spring-context-support</module>
+        <module>spring-web</module>
     </modules>
 
     <properties>
