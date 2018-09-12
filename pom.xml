@@ -19,6 +19,7 @@
         <module>spring-context</module>
         <module>spring-oxm</module>
         <module>spring-demo-1</module>
+        <module>spring-tx</module>
     </modules>
 
     <properties>
