@@ -21,6 +21,7 @@
         <module>spring-demo-1</module>
         <module>spring-tx</module>
         <module>spring-jdbc</module>
+        <module>spring-context-support</module>
     </modules>
 
     <properties>
