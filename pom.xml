@@ -23,6 +23,7 @@
         <module>spring-jdbc</module>
         <module>spring-context-support</module>
         <module>spring-web</module>
+        <module>spring-webmvc</module>
     </modules>
 
     <properties>
