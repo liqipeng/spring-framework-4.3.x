@@ -20,6 +20,7 @@
         <module>spring-oxm</module>
         <module>spring-demo-1</module>
         <module>spring-tx</module>
+        <module>spring-jdbc</module>
     </modules>
 
     <properties>
