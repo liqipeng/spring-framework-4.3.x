@@ -1,4 +1,7 @@
 # spring-framework-4.3.x
+[![Build Status](https://www.travis-ci.org/liqipeng/spring-framework-4.3.x.svg?branch=main)](https://www.travis-ci.org/liqipeng/spring-framework-4.3.x)
+[![codecov](https://codecov.io/gh/liqipeng/spring-framework-4.3.x/branch/main/graph/badge.svg?token=5FDS9ELV8L)](https://codecov.io/gh/liqipeng/spring-framework-4.3.x)
+
 A version of the spring framework code could be built with Maven. This is just parts of the modules. Original from https://github.com/spring-projects/spring-framework/tree/4.3.x. Just for code learning only.
 
 这是一个可以用maven构建的spring框架的源码。需要注意的是它只是包括了部分模块的代码，并不完整。基于spring framework官方原始代码的4.3.x分支进行调整而来。仅用于代码学习只用。
