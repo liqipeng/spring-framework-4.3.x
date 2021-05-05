@@ -214,6 +214,10 @@
 
                     <!-- 不执行测试代码 -->
                     <!--<skipTests>true</skipTests>-->
+
+                    <includes>
+                        <include>**/*</include>
+                    </includes>
                 </configuration>
             </plugin>
 
