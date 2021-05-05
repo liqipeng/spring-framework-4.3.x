@@ -8,7 +8,7 @@ cache:
   - '$HOME/.m2/repository'
 
 install:
-  - mvn clean package -B -V
+  - mvn clean package -Dmaven.javadoc.skip=true -B -V
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

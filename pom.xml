@@ -241,6 +241,10 @@
             <id>spring-repo</id>
             <url>https://repo.spring.io/plugins-release/</url>
         </repository>
+        <repository>
+            <id>aliyun-public</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
     </repositories>
 
 </project>
