@@ -20,6 +20,7 @@ import java.io.StringWriter;
 import javax.xml.transform.stream.StreamResult;
 
 import org.custommonkey.xmlunit.XMLUnit;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import org.springframework.oxm.AbstractMarshallerTests;
@@ -35,6 +36,7 @@ import static org.junit.Assert.assertTrue;
  * @author Arjen Poutsma
  * @author Sam Brannen
  */
+@Ignore
 public class JibxMarshallerTests extends AbstractMarshallerTests<JibxMarshaller> {
 
 	@Override

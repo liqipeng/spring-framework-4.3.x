@@ -21,6 +21,7 @@ import javax.xml.transform.stream.StreamSource;
 
 import org.junit.Assume;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import org.springframework.oxm.AbstractUnmarshallerTests;
@@ -34,6 +35,7 @@ import static org.junit.Assert.*;
  * @author Arjen Poutsma
  * @author Sam Brannen
  */
+@Ignore
 public class JibxUnmarshallerTests extends AbstractUnmarshallerTests<JibxMarshaller> {
 
 	protected static final String INPUT_STRING_WITH_SPECIAL_CHARACTERS =

@@ -18,6 +18,7 @@ package org.springframework.oxm.config;
 
 import org.apache.xmlbeans.XmlOptions;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import org.springframework.context.ApplicationContext;
@@ -35,6 +36,7 @@ import static org.junit.Assert.*;
  * @author Sam Brannen
  */
 @SuppressWarnings("deprecation")
+@Ignore
 public class OxmNamespaceHandlerTests {
 
 	private final ApplicationContext applicationContext =

@@ -8,7 +8,7 @@ cache:
   - '$HOME/.m2/repository'
 
 install:
-  - mvn clean package -Dmaven.javadoc.skip=true -B -V
+  - mvn clean package -Dmaven.test.failure.ignore=true -Dmaven.javadoc.skip=true -B -V
 
 script:
   - mvn cobertura:cobertura
